@@ -1,0 +1,27 @@
+
+:root {
+  --pink: #ff5fa2;
+  --bg: #fff7fb;
+  --text: #333;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans JP", sans-serif;
+}
+.app-header {
+  background: linear-gradient(135deg, #ff8ac2, #ff5fa2 60%, #f13f95);
+  color: white;
+  padding: 24px;
+}
+h1 { margin: 0 0 8px; }
+main { padding: 16px; max-width: 960px; margin: 0 auto; }
+section { background: white; border: 1px solid #f2c3d7; border-radius: 12px; padding: 16px; margin: 12px 0; }
+.btn { display:inline-block; text-decoration:none; background: var(--pink); color: white; border: none; padding: 10px 16px; border-radius: 8px; cursor: pointer; }
+button.btn { font-size: 1rem; }
+button.hide, #update-msg.hide { display: none; }
+#update-msg { margin: 8px 0; color: #d4006a; }
+footer { padding: 16px; text-align: center; color: #777; }
